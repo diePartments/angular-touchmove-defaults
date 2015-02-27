@@ -49,10 +49,10 @@
                     return;
                 }
 
-                el.on('touchmove', allowTouchmoveDefaultCallback);
+                el.on('touchmove', allowTouchmoveDefaultsCallback);
 
                 el.on('$destroy', function() {
-                    el.off('touchmove', allowTouchmoveDefaultCallback);
+                    el.off('touchmove', allowTouchmoveDefaultsCallback);
                 });
             }
         };
