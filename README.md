@@ -17,7 +17,7 @@ Make sure to include it
 ## Usage
 Add `'dp.utils.touchmoveDefaults'` as requirement to your app
 ```javascript
-var app = angular.module('myApp', ['dp.utils.touchmoveDefaults]);
+var app = angular.module('myApp', ['dp.utils.touchmoveDefaults']);
 ```
 
 Prevent default touchmove on your root element to get rid of the momentum bounce
