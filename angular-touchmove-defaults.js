@@ -62,7 +62,7 @@
      * Conditionally allow touchmove default behavior
      *
      * @directive
-     * @param {expression} allowTouchmoveIf Condition to decide if default touchmove should be allowed
+     * @param {expression} dpAllowTouchmoveIf Condition to decide if default touchmove should be allowed
      */
     module.directive('dpAllowTouchmoveIf', function() {
 
@@ -74,7 +74,7 @@
                     return;
                 }
 
-                var condition = attrs.allowTouchmoveIf,
+                var condition = attrs.dpAllowTouchmoveIf,
                     touchmoveCb = function(e) {
                         e.allowTouchmoveDefault = !!scope.$eval(condition);
                     };
