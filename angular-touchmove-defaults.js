@@ -17,7 +17,7 @@
      *
      * @directive preventTouchmove
      */
-    module.directive('preventTouchmove', function() {
+    module.directive('dpPpreventTouchmove', function() {
 
         return {
             restrict: 'A',
@@ -40,7 +40,7 @@
      *
      * @directive
      */
-    module.directive('allowTouchmove', function() {
+    module.directive('dpAllowTouchmove', function() {
 
         return {
             restrict: 'A',
@@ -64,7 +64,7 @@
      * @directive
      * @param {expression} allowTouchmoveIf Condition to decide if default touchmove should be allowed
      */
-    module.directive('allowTouchmoveIf', function() {
+    module.directive('dpAllowTouchmoveIf', function() {
 
         return {
             restrict: 'A',

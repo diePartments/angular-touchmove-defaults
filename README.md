@@ -22,16 +22,16 @@ var app = angular.module('myApp', ['dp.utils.touchmoveDefaults']);
 
 Prevent default touchmove on your root element to get rid of the momentum bounce
 ```html
-<body prevent-touchmove></body
+<body dp-prevent-touchmove></body
 ````
 
 Allow default touchmove for elements or regions within your app. 
 I.e. for native text scrolling or to get faster response i.e. when working with [FastClick](https://github.com/ftlabs/fastclick)
 ```html
-<div allow-touchmove></div>
+<div dp-allow-touchmove></div>
 ````
 
 You can also conditionally allow native touchmove by specifying an expression
 ```html
-<div allow-touchmove-if="your-expression"></div>
+<div dp-allow-touchmove-if="your-expression"></div>
 ```
