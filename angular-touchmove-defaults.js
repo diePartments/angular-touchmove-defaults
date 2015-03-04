@@ -17,7 +17,7 @@
      *
      * @directive preventTouchmove
      */
-    module.directive('dpPpreventTouchmove', function() {
+    module.directive('dpPreventTouchmove', function() {
 
         return {
             restrict: 'A',
